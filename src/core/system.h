@@ -5,7 +5,7 @@
 #ifdef	__cplusplus
 extern "C" {
 #endif
-    
+#include <stddef.h>
 #include <stdint.h>
 #include <SDL2/SDL_platform.h>
 #include <SDL2/SDL_opengl.h>

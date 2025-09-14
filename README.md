@@ -124,7 +124,7 @@ under Project Build options:
 
 On Linux, just download the source code and run in terminal:
 
-    cmake . && make
+    cmake .. -DCMAKE_CXX_FLAGS="-Wno-error=argument-outside-range"  && make
 
 The required dependencies are the development headers for SDL2, png, ZLIB.
 You can install them in an Ubuntu-based distro with this command:
